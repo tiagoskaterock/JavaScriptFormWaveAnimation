@@ -8,11 +8,16 @@
   </a>
 </p>
 
+<p align="center">
 - This is a simple project made using JavaScript to show some animations when the form field is focused
+</p>
 
-Classes here
+<h4>Classes here</h4>
 
-<a align="center" href="https://www.udemy.com/course/50-projects-50-days/">50 Projects In 50 Days - HTML, CSS & JavaScript
-</a>
+<p align="center">
+  <a href="https://www.udemy.com/course/50-projects-50-days/">
+    50 Projects In 50 Days - HTML, CSS & JavaScript
+  </a>
+</p>
 
 <p align="center"><img src="img/1.png" alt="Form Wave Animation" /></p>
