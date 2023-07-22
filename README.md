@@ -15,4 +15,4 @@ Classes here
 <a align="center" href="https://www.udemy.com/course/50-projects-50-days/">50 Projects In 50 Days - HTML, CSS & JavaScript
 </a>
 
-<img align="center" src="img/1.png" alt="Form Wave Animation" />
+<p align="center"><img src="img/1.png" alt="Form Wave Animation" /></p>
