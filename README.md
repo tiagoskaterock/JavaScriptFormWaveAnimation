@@ -1,5 +1,5 @@
 <h1 align="center">
-   JavaScript Form Wave Animotion
+   JavaScript Form Wave Animation
 </h1>
 
 <p align="center">
@@ -12,7 +12,7 @@
 
 Classes here
 
-<a href="https://www.udemy.com/course/50-projects-50-days/">50 Projects In 50 Days - HTML, CSS & JavaScript
+<a align="center" href="https://www.udemy.com/course/50-projects-50-days/">50 Projects In 50 Days - HTML, CSS & JavaScript
 </a>
 
-<img src="img/1.png" alt="Form Wave Animation" />
+<img align="center" src="img/1.png" alt="Form Wave Animation" />
