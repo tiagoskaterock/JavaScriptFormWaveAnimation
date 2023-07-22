@@ -1,4 +1,4 @@
-/** GENERAL **/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Mulish:wght@300;400;600&family=Poppins:wght@200;400&family=Roboto:wght@300;400&display=swap');
 
 * {
   margin: 0;
@@ -6,197 +6,81 @@
   box-sizing: border-box;   
 }
 
-.clearfix::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-
 body {
-  color: #555;
-  font-family: Arial, Helvetica, sans-serif;
-  font-size: 16px;
-  position: relative;
+  background-color: steelblue;
+  color: #fff;
+  font-family: 'Mulish', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
-  font-weight: 400; 
-  
+  overflow: hidden;
+  margin: 0;
 }
 
-.right {
-  float: right;
+.container {
+  background-color: rgba(0,0,0,.4);
+  padding: 20px 40px;
+  border-radius: 5px;
 }
 
-/** TOP **/
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
 
-.top {
-  height: 20vh;
-  background-color: #00bfff;
-  background-image: linear-gradient(to right, white, #00bfff, white);
-  background-size: cover;
-  background-position: center;
+.container a {
+  text-decoration: none;
+  color: lightblue;
+}
+
+.btn {
+  cursor: pointer;
+  display: inline-block;
+  width: 100%;
+  background-color: lightblue;
+  padding: 15px;
+  font-family: inherit;
+  font-size: 16px;
+  border: 0;
+  border-radius: 5px;
+}
+
+.btn:focus {
+  outline: 0;
+}
+
+.btn:hover {
+  opacity: .9;
+}
+
+.btn:active {
+  transform: scale(.98);
+}
+
+.form-control {
   position: relative;
+  margin: 20px 0 40px;
+  width: 300px;
 }
 
-.project {
-  position: absolute;
-  width: 350px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
+.form-control input{
+  background-color: transparent;
+  border: 0;
+  border-bottom: 2px #fff solid;
+  display: block;
+  width: 100%;
+  padding: 15px 0;
+  font-size: 18px;
   color: #fff;
 }
 
-.project__title {
-  font-size: 72px;
-  text-align: center;
+.form-control input:focus, .form-control input:valid, input:-internal-autofill-selected  {
+  outline: 0; 
+  background-color: transparent; 
 }
 
-/** BOTTOM **/
-
-/* FORM */
-.add {
-  padding: 14px;
-  border-bottom: 1px solid #e7e7e7;
-  background-color: #f7f7f7;
-}
-
-.add__container {
-  margin: 0 auto;
-  text-align: center;
-}
-
-.add__description {
-  border: 1px solid #e7e7e7;
-  background-color: #fff;
-  color: inherit;
-  font-family: inherit;
-  font-size: 14px;
-  padding: 12px 15px;
-  margin-right: 10px;
-  border-radius: 5px;
-  transition: border 0.3s;
-  width: 400px;
-}
-
-.add__btn {
-  font-size: 40px;
-  background: none;
-  border: none;
-  color: #00bfff;
-  cursor: pointer;
-  display: inline-block;
-  vertical-align: middle;
-  line-height: 1.1;
-  margin-left: 10px;
-}
-
-.add__btn:active {
-  transform: translateY(2px);
-}
-
-.add__description:focus {
-  outline: none;
-  border: 1px solid #00bfff;
-}
-
-.add__btn:focus {
-  outline: none;
-}
-
-/* LISTS */
-.container {
-  margin: 60px auto;
-  text-align: center;
-}
-
-.task {
-  width: 475px;
-  margin: auto;
-  align-items: center;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-size: 40px;
-  font-weight: 400;
-  margin-bottom: 15px;
-}
-
-.task__title {
-  color: #00bfff;
-}
-
-.item {
-  font-size: 36px;
-  padding: 13px;
-  border-bottom: 1px solid #e7e7e7;
-}
-
-.item:first-child {
-  border-top: 1px solid #e7e7e7;
-}
-.item:nth-child(even) {
-  background-color: #f7f7f7;
-}
-
-.item__description {
-  float: left;
-  color: #00bfff;
-}
-
-.item__description__done {
-  text-decoration: line-through;
-  color: #808080;
-}
-
-.item__done {
-  float: left;
-  margin-right: 1vh;
-}
-
-.item__done--btn {
-  font-size: 36px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-  display: block;
-  color: #008000;
-}
-
-.item__done--btn--done {
-  color: #808080; 
-}
-
-.item__done--btn:focus {
-  outline: none;
-}
-
-.item__done--btn:active {
-  transform: translateY(2px);
-}
-
-.item__delete {
-  float: left;
-  margin-right: 1vh;
-}
-
-.item__delete--btn {
-  font-size: 36px;
-  background: none;
-  border: none;
-  cursor: pointer;
-  display: inline-block;
-  line-height: 1;
-  display: block;
-  color: #ff0000;
-}
-
-.item__delete--btn:focus {
-  outline: none;
-}
-
-.item__delete--btn:active {
-  transform: translateY(2px);
+.text {
+  margin-top: 30px;
 }
