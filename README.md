@@ -20,4 +20,4 @@
   </a>
 </p>
 
-<p align="center"><img src="img/1.png" alt="Form Wave Animation" /></p>
+<p align="center"><img src="img/1.gif" alt="Form Wave Animation" /></p>
