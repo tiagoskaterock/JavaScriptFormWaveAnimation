@@ -12,7 +12,7 @@
 - This is a simple project made using JavaScript to show some animations when the form field is focused
 </p>
 
-<h4>Classes here</h4>
+<h4 align="center">Classes here</h4>
 
 <p align="center">
   <a href="https://www.udemy.com/course/50-projects-50-days/">
